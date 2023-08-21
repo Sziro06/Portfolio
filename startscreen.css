@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-color: white;
     color:black;
+    height: 38.7rem;
 }
 
 .dark-mode{
@@ -12,4 +13,16 @@ body{
 
 button{
     cursor: pointer;
+}
+
+nav{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(145, 143, 143);
+    /*filter: blur(0.7px);*/
+    display: none;
+}
+
+nav *{
+    margin: 20%;
 }
