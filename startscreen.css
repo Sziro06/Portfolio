@@ -9,13 +9,29 @@ body{
 .dark-mode{
     color: white;
     background-color:black; 
+    #obtn{
+        color: white;
+        border: 2px solid white;
+    }
 }
 
 button{
     cursor: pointer;
 }
 
+#obtn{
+    width: 80%;
+    height: 50%;
+    margin: 0.8rem;
+    grid-area: obtn; 
+    border: 2px solid black;
+    background: none;
+}
+
+
 nav{
+    position: absolute;
+    top: 0;
     width: 30%;
     height: 100%;
     background-color: rgb(145, 143, 143);
@@ -23,6 +39,17 @@ nav{
     display: none;
 }
 
-nav *{
-    margin: 20%;
+nav button, li{
+    border: none;
+    list-style: none;
+    margin-top: 2rem;
+}
+
+header{
+    display: grid;
+    grid-template: 
+    "obtn" auto /
+    10%;
+    height: 10%;
+    width: 100%;
 }
