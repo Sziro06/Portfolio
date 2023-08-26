@@ -1,0 +1,29 @@
+body{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.star_rating{
+    position: absolute;
+    top: 55%;
+    left: 47.5%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    background-color: white;
+    padding: 1.4rem 2.5rem;
+    border-radius: .4rem;
+    color: black;
+    text-align: center;
+}
+
+.star{
+    font-size: 3rem;
+    color: #ff9800;
+    background-color: none;
+    border: none;
+}
+
+.star:hover{
+    cursor: pointer;
+    background-color: #fcbc5b;
+}

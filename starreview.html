@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="startscreen.css">
+    <link rel="stylesheet" href="starreview.css">
+</head>
+<body>
+
+    <header>
+        <button id="obtn" onclick="openNav()">Open menu</button>
+        <h1 class="tittel">Star review</h1>
+    </header>
+
+    <nav id="navIsOpen">
+        <ul>
+            <li><button onclick="changebackground()">Change background</button></li>
+            <li><button onclick="lockNav()">Lock menu</button></li>
+            <li><button><a href="startscreen.html">Return Homepage</a></button></li>
+        </ul>        
+    </nav>
+
+    
+    <div class="star_rating">
+        <h3>Hva synes du om portfolien?</h3>
+        <button class="star">&#9734</button>
+        <button class="star">&#9734</button>
+        <button class="star">&#9734</button>
+        <button class="star">&#9734</button>
+        <button class="star">&#9734</button>
+        <p class="current_rating">0 av 5</p>
+    </div>
+
+    <script src="starreview.js"></script>
+    <script src="startscreen.js"></script>
+</body>
+</html>

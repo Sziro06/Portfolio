@@ -13,6 +13,10 @@ body{
         color: white;
         border: 2px solid white;
     }
+    #obtn:hover{
+        background-color: white;
+        color: black;
+    }
 }
 
 button{
@@ -26,6 +30,11 @@ button{
     grid-area: obtn; 
     border: 2px solid black;
     background: none;
+}
+
+#obtn:hover{
+    background-color: black;
+    color: white;
 }
 
 .tittel{
