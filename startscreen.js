@@ -1,5 +1,6 @@
 let navIsOpen = document.getElementById("navIsOpen");
 let obtn = document.getElementById("obtn");
+let starRating = document.getElementById("starrating");
 
 
 function changebackground(){
@@ -29,9 +30,11 @@ if(GetTheme === "Dark"){
 function openNav(){
     navIsOpen.style.display = "block"
     obtn.style.display = "none"
+    starRating.style.display = "none"
 }
 
 function lockNav(){
     navIsOpen.style.display = "none"
     obtn.style.display = "block"
+    starRating.style.display = "block"
 }
