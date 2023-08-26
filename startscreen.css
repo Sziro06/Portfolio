@@ -46,18 +46,37 @@ button{
 
 nav{
     position: absolute;
+    padding: 0;
     top: 0;
-    width: 30%;
+    width: 25%;
     height: 100%;
     background-color: rgb(145, 143, 143);
     /*filter: blur(0.7px);*/
     display: none;
+    text-align: center;
 }
 
-nav button, li{
-    border: none;
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav button{
+    border: 3px solid white;
+}
+
+nav button:hover{
+    border: 5px outset white;
+    background:white;
+    color:black;
+}
+
+nav button, li, a{
+    padding: 1rem;
+    background: none;
     list-style: none;
-    margin-top: 2rem;
+    color: black;
+    text-decoration: none;
 }
 
 header{

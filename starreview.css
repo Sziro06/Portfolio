@@ -13,6 +13,7 @@ body{
     padding: 1.4rem 2.5rem;
     border-radius: .4rem;
     color: rgb(0, 0, 0);
+    border: 2px solid black;
     text-align: center;
 }
 
@@ -26,4 +27,8 @@ body{
 .star:hover{
     cursor: pointer;
     background-color: #fcbc5b;
+}
+
+h3, p{
+    cursor: text;
 }
