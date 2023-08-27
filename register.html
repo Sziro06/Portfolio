@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="startscreen.css">
+
+</head>
+<body>
+
+    <header>
+        <button id="obtn" onclick="openNav()">Open menu</button>
+        <h1 class="tittel">Star review</h1>
+    </header>
+
+    <nav id="navIsOpen">
+        <ul>
+            <li><button onclick="changebackground()">Change background</button></li>
+            <li><button onclick="lockNav()">Lock menu</button></li>
+            <li><button><a href="startscreen.html">Return Homepage</a></button></li>
+        </ul>        
+    </nav>
+
+    <div id="registerarea">
+        <div><h1>Registrering</h1></div>
+        <div><input type="text" placeholder="Brukernavn" id="username"></div>
+        <div><input type="password" placeholder="Passord" id="passwordone"></div>
+        <div><input type="password" placeholder="Gjenta password" id="passwordtwo"></div>
+        <div><input type="button" value="Lag bruker" onclick="createAccount()"></div>
+    </div>
+
+    <div id="youraccount">
+        <div><h1>Din konto</h1></div>
+        <div><p>Brukernavn: <span id="yourname"></span></p></div>
+        <div><p>Passordet: <span id="yourpassword"></span></p></div>
+        <div><button><a href="starreview.html">Hello World</a></button></div>
+    </div>
+
+    <script src="register.js"></script>
+    <script src="startscreen.js"></script>
+</body>
+</html>
