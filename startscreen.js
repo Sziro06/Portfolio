@@ -39,7 +39,3 @@ function lockNav(){
     obtn.style.display = "block"
     starRating.style.display = "block"
 }
-
-if(lockNav && document.getElementById('commentbox').style.display = 'block'){
-
-}
