@@ -26,17 +26,18 @@
 
     <div id="registerarea">
         <div><h1>Registrering</h1></div>
-        <div><input type="text" placeholder="Brukernavn" id="username"></div>
+        <div><input type="text" placeholder="Full navn" id="username"></div>
         <div><input type="password" placeholder="Passord" id="passwordone"></div>
         <div><input type="password" placeholder="Gjenta password" id="passwordtwo"></div>
         <div><input type="button" value="Lag bruker" onclick="createAccount()"></div>
+        <div><p id="gjentapassordet">Passordet er ikke samme</p></div>
     </div>
 
     <div id="youraccount">
         <div><h1>Din konto</h1></div>
         <div><p>Brukernavn: <span id="yourname"></span></p></div>
         <div><p>Passordet: <span id="yourpassword"></span></p></div>
-        <div><button><a href="starreview.html">Hello World</a></button></div>
+        <div><button><a href="starreview.html">Kontoen er ferdig</a></button></div>
     </div>
 
     <script src="register.js"></script>

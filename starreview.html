@@ -22,6 +22,11 @@
         </ul>        
     </nav>
 
+    <a href="startscreen.html">
+    <div id="donewithreview">
+        <div id="checkmark">&#10004</div>
+    </div>
+    </a>
     
     <div id="starrating">
         <h3>Hva synes du om portfolien?</h3>
@@ -30,8 +35,24 @@
         <button class="star">&#9734</button>
         <button class="star">&#9734</button>
         <button class="star">&#9734</button>
-        <p class="current_rating">0 av 5</p>
+        <div><button onclick="sendstars()">Send</button></div>
+        
     </div>
+
+    <div id="commentbox">
+        <h3>Gi tilbakemelding?</h3>
+        <input id="comment" type="text">
+        <button onclick="sendcomment()">Send kommentaren</button>     
+    </div>
+
+    <div id="account">
+        <h3>Ditt profil</h3>
+        <p>Navn: <span id="yourname"></span></p>
+        <p>Passord: <span id="yourpassword"></span></p>
+        <p class="current_rating">Rate: 0 av 5</p>
+        <p>Kommentaren: <span id="yourcomment"></span></p>
+    </div>
+    
 
     <script src="starreview.js"></script>
     <script src="startscreen.js"></script>

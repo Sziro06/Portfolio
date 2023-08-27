@@ -31,10 +31,15 @@ function openNav(){
     navIsOpen.style.display = "block"
     obtn.style.display = "none"
     starRating.style.display = "none"
+
 }
 
 function lockNav(){
     navIsOpen.style.display = "none"
     obtn.style.display = "block"
     starRating.style.display = "block"
+}
+
+if(lockNav && document.getElementById('commentbox').style.display = 'block'){
+
 }

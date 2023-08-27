@@ -45,3 +45,8 @@ input{
 div h1{
     margin-top: -0.3rem;
 }
+
+#gjentapassordet{
+    color:red; 
+    display: none;
+}

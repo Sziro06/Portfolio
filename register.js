@@ -11,5 +11,8 @@ function createAccount(){
         document.getElementById("yourpassword").textContent = passwordOne;
         document.getElementById("youraccount").style.display = "block";
         document.getElementById("registerarea").style.display = "none";
+        document.getElementById("gjentapassordet").style.display = "none"
+    } else {
+        document.getElementById("gjentapassordet").style.display = "block"
     }
 }
