@@ -28,14 +28,16 @@ if(GetTheme === "Dark"){
 //------------------------------------------------------------------------------------------------
 
 function openNav(){
-    navIsOpen.style.display = "block"
-    obtn.style.display = "none"
-    starRating.style.display = "none"
-
+    navIsOpen.style.display = "block";
+    obtn.style.display = "none";
+    starRating.style.display = "none";
+    document.getElementById('account').style.display = 'none';
 }
 
 function lockNav(){
-    navIsOpen.style.display = "none"
-    obtn.style.display = "block"
-    starRating.style.display = "block"
+    navIsOpen.style.display = "none";
+    obtn.style.display = "block";
+    starRating.style.display = "block";
+    document.getElementById('account').style.display = 'block';
+
 }
