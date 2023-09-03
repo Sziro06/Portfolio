@@ -32,6 +32,7 @@ function openNav(){
     obtn.style.display = "none";
     starRating.style.display = "none";
     document.getElementById('account').style.display = 'none';
+    document.getElementById('donewithreview').style.display = 'none';
 }
 
 function lockNav(){
@@ -39,5 +40,5 @@ function lockNav(){
     obtn.style.display = "block";
     starRating.style.display = "block";
     document.getElementById('account').style.display = 'block';
-
+    document.getElementById('donewithreview').style.display = 'none';
 }
