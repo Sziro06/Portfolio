@@ -115,9 +115,23 @@ nav button, li, a{
 header{
     display: grid;
     grid-template: 
-    "obtn" "tittel" auto /
-    10%     75%;
+    "obtn" "tittel" "contactinformation" auto /
+    10%     75%    10%;
     width: 100%;
+}
+
+.contactinformation{
+    border: 2px solid black;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    height: 25%;
+}
+
+.contactinformation:hover{
+    
+    background-color: black;
+    color: white;
 }
 
 .links{

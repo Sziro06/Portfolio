@@ -83,3 +83,31 @@ header{
     margin-right: 25%;
     line-height: 1.8rem;
 }
+
+u{
+    text-decoration-color: rgb(0, 191, 255) ;
+}
+
+video{
+    width: 35rem;
+    height: 19.69rem;
+    margin-left: 9%;
+    padding: 1rem;
+    border: 2px solid rgb(0, 191, 255);
+}
+
+.jstext{
+    position: absolute;
+    top: 58%;
+    left: 55%;
+}
+
+.js{
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    display: js;
+    border-radius: 100%;
+    width: 10rem;
+    height: 10rem;
+}
