@@ -96,13 +96,19 @@ video{
     border: 2px solid rgb(0, 191, 255);
 }
 
-.jstext{
+.jstextsprok{
     position: absolute;
     top: 58%;
     left: 55%;
 }
 
-.js{
+.jstextide{
+    position: absolute;
+    top: 58%;
+    left: 80%;
+}
+
+.f21js{
     position: absolute;
     top: 70%;
     left: 55%;
@@ -110,4 +116,18 @@ video{
     border-radius: 100%;
     width: 10rem;
     height: 10rem;
+    padding: 2px;
+    border: 2px solid rgb(0, 191, 255);
+}
+
+.f21vscode{
+    position: absolute;
+    top: 70%;
+    left: 79%;
+    display: js;
+    border-radius: 100%;
+    width: 10rem;
+    height: 10rem;
+    padding: 2px;
+    border: 2px solid rgb(0, 191, 255);
 }
